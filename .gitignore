@@ -1,0 +1,23 @@
+# Forge / Foundry build artifacts and cache
+out/
+artifacts/
+cache/
+
+# Node modules if any (for forge-std or other libs)
+lib/forge-std/node_modules/
+lib/forge-std/package-lock.json
+lib/forge-std/package.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders and files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and environment files
+*.log
+.env
