@@ -23,12 +23,12 @@ contract DiceGame is ERC721URIStorage, Ownable {
         nextTokenId = 1;
 
         // Set placeholder URIs for each dice face result (can replace with real URIs later)
-        resultToURI[1] = "ipfs://dice-face-1";
-        resultToURI[2] = "ipfs://dice-face-2";
-        resultToURI[3] = "ipfs://dice-face-3";
-        resultToURI[4] = "ipfs://dice-face-4";
-        resultToURI[5] = "ipfs://dice-face-5";
-        resultToURI[6] = "ipfs://dice-face-6";
+        resultToURI[1] = "ipfs://bafybeicqkx47pf55gibsn7hhcnlstgiw766mxgttjuiu6tizg3b5qihf5m/dice_1.json";
+        resultToURI[2] = "ipfs://bafybeicqkx47pf55gibsn7hhcnlstgiw766mxgttjuiu6tizg3b5qihf5m/dice_2.json";
+        resultToURI[3] = "ipfs://bafybeicqkx47pf55gibsn7hhcnlstgiw766mxgttjuiu6tizg3b5qihf5m/dice_3.json";
+        resultToURI[4] = "ipfs://bafybeicqkx47pf55gibsn7hhcnlstgiw766mxgttjuiu6tizg3b5qihf5m/dice_4.json";
+        resultToURI[5] = "ipfs://bafybeicqkx47pf55gibsn7hhcnlstgiw766mxgttjuiu6tizg3b5qihf5m/dice_5.json";
+        resultToURI[6] = "ipfs://bafybeicqkx47pf55gibsn7hhcnlstgiw766mxgttjuiu6tizg3b5qihf5m/dice_6.json";
     }
 
     function play() external payable {
